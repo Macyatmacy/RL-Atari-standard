@@ -1,0 +1,12 @@
+pytest
+black
+click
+pylint
+pytest-cov
+tensorboardX
+ale-py==0.7.0
+autorom[accept-rom-license]
+gym==0.23.0
+torch
+pygame
+opencv-python
