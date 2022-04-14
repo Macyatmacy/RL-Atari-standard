@@ -10,3 +10,4 @@ gym==0.23.1
 torch
 pygame
 opencv-python
+numpy

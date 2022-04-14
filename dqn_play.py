@@ -7,8 +7,6 @@ import torch
 from libs import wrappers
 from libs import dqn_model
 
-# from libs.utils import mkdir
-
 import collections
 
 
