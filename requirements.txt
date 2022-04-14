@@ -4,9 +4,9 @@ click
 pylint
 pytest-cov
 tensorboardX
-ale-py==0.7.0
+ale-py==0.7.4
 autorom[accept-rom-license]
-gym==0.23.0
+gym==0.23.1
 torch
 pygame
 opencv-python
