@@ -23,7 +23,7 @@ if __name__ == "__main__":
                         help="Environment name to use, default=" + DEFAULT_ENV_NAME)
     parser.add_argument("--no-visualize", default=True, action='store_false', dest='visualize',
                         help="Disable visualization of the game play")
-    args = parser.parse_args()
+    args, unknown = parser.parse_known_args()
 
     env = wrappers.make_env(args.env, "human")
     net = dqn_model.DQN(env.observation_space.shape, env.action_space.n)
