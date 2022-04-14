@@ -18,7 +18,8 @@ test:
 	python -m pytest -vv --cov=setup_env test_setup_env.py
 
 play:
-	python dqn_play.py -m checkpoints/Pong-v5-best.dat
+	python dqn_play.py -m checkpoints/Pong-v5-best.dat  --env "ALE/Pong-v5"
+
 
 all: install format lint test
 
